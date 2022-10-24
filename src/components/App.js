@@ -1,5 +1,8 @@
 import React from "react"
 import RecipeList from "./RecipeList"
+
+import "./../css/app.css"
+
 function App() {
 	return (
 		<>
@@ -16,6 +19,10 @@ const sampleRecipies = [
 		cookTime: "1:45",
 		instructions: `1. Put salt on chicken 2. Put chicken in oven 3. Eat the chicken
 		`,
+		ingredients: [
+			{ id: 1, name: "chicken", amount: "2pounds" },
+			{ id: 2, name: "solt", amount: "1tbs" },
+		],
 	},
 	{
 		id: 2,
@@ -24,6 +31,10 @@ const sampleRecipies = [
 		cookTime: "0:45",
 		instructions: `1. Put paprika on pork 2. Put pork in oven 3. Eat the pork
 		`,
+		ingredients: [
+			{ id: 1, name: "pork", amount: "3pounds" },
+			{ id: 2, name: "paprika", amount: "2tbs" },
+		],
 	},
 ]
 
