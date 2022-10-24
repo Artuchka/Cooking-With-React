@@ -17,3 +17,12 @@
 .btn.btn--primary:hover {
     background-color: hsl(200 100% 33%);
 }
+
+.btn.btn--danger {
+    background-color: hsl(0 100% 50%);
+    color: white;
+}
+
+.btn.btn--danger:hover {
+    background-color: hsl(0 100% 33%);
+}
