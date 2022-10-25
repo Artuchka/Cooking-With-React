@@ -5,11 +5,13 @@
 @import './recipe.css';
 @import './ingredient-list.css';
 
+@import './recipe-edit.css';
+
 *,
 *::after,
 *::before {
     font-family: Gotham Rounded;
-
+    box-sizing: border-box;
 }
 
 html {

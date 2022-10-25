@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import RecipeList from "./RecipeList"
+import RecipeEdit from "./RecipeEdit"
 
 import "./../css/app.css"
 import { v4 as uuidv4 } from "uuid"
@@ -50,6 +51,7 @@ function App() {
 		<React.StrictMode>
 			<RecipeContext.Provider value={recipeContextValue}>
 				<RecipeList recipies={recipes} />
+				<RecipeEdit />
 			</RecipeContext.Provider>
 		</React.StrictMode>
 	)
